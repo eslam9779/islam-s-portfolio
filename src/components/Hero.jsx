@@ -35,10 +35,10 @@ const Hero = () => {
                                         </Button>
                                     </a>
                                     <div className="social-links d-flex gap-3">
-                                        <a href="https://github.com" target="_blank" rel="noreferrer" className="social-icon">
+                                        <a href="https://github.com/eslam9779" target="_blank" rel="noreferrer" className="social-icon">
                                             <FaGithub />
                                         </a>
-                                        <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="social-icon">
+                                        <a href="https://www.linkedin.com/in/eslam-abd-elsattar-aa110b164/" target="_blank" rel="noreferrer" className="social-icon">
                                             <FaLinkedin />
                                         </a>
                                     </div>

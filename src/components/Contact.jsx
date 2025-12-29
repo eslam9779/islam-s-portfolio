@@ -17,12 +17,12 @@ const Contact = () => {
                     <Row className="justify-content-center text-center">
                         <Col md={8}>
                             <div className="contact-links d-flex justify-content-center gap-4 flex-wrap">
-                                <a href="mailto:example@email.com" className="contact-card">
+                                <a href="mailto:eslam9779@gmail.com" className="contact-card">
                                     <div className="icon-box">
                                         <FaEnvelope />
                                     </div>
                                     <h3>{t('contact.email')}</h3>
-                                    <p>email@example.com</p>
+                                    <p>eslam9779@gmail.com</p>
                                 </a>
 
                                 <div className="contact-card">
@@ -30,7 +30,7 @@ const Contact = () => {
                                         <FaPhoneAlt />
                                     </div>
                                     <h3>Phone</h3>
-                                    <p>+123 456 7890</p>
+                                    <p>01017392616</p>
                                 </div>
 
                                 <div className="contact-card">
@@ -38,10 +38,10 @@ const Contact = () => {
                                         <FaMapMarkerAlt />
                                     </div>
                                     <h3>Address</h3>
-                                    <p>Cairo, Egypt</p>
+                                    <p>Faisal,Giza,Egypt</p>
                                 </div>
 
-                                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="contact-card">
+                                <a href="https://www.linkedin.com/in/eslam-abd-elsattar-aa110b164/" target="_blank" rel="noreferrer" className="contact-card">
                                     <div className="icon-box">
                                         <FaLinkedin />
                                     </div>
@@ -49,7 +49,7 @@ const Contact = () => {
                                     <p>LinkedIn Profile</p>
                                 </a>
 
-                                <a href="https://github.com" target="_blank" rel="noreferrer" className="contact-card">
+                                <a href="https://github.com/eslam9779" target="_blank" rel="noreferrer" className="contact-card">
                                     <div className="icon-box">
                                         <FaGithub />
                                     </div>
