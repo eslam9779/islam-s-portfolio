@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
@@ -35,12 +35,22 @@ const Hero = () => {
                                         </Button>
                                     </a>
                                     <div className="social-links d-flex gap-3">
-                                        <a href="https://github.com/eslam9779" target="_blank" rel="noreferrer" className="social-icon">
-                                            <FaGithub />
-                                        </a>
-                                        <a href="https://www.linkedin.com/in/eslam-abd-elsattar-aa110b164/" target="_blank" rel="noreferrer" className="social-icon">
-                                            <FaLinkedin />
-                                        </a>
+                                        <OverlayTrigger
+                                            placement="bottom"
+                                            overlay={<Tooltip id="github-tooltip">{t('hero.github')}</Tooltip>}
+                                        >
+                                            <a href="https://github.com/eslam9779" target="_blank" rel="noreferrer" className="social-icon github">
+                                                <FaGithub />
+                                            </a>
+                                        </OverlayTrigger>
+                                        <OverlayTrigger
+                                            placement="bottom"
+                                            overlay={<Tooltip id="linkedin-tooltip">{t('hero.linkedin')}</Tooltip>}
+                                        >
+                                            <a href="https://www.linkedin.com/in/eslam-abd-elsattar-aa110b164/" target="_blank" rel="noreferrer" className="social-icon linkedin">
+                                                <FaLinkedin />
+                                            </a>
+                                        </OverlayTrigger>
                                     </div>
                                 </div>
                             </motion.div>

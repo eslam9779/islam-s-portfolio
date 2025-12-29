@@ -53,10 +53,19 @@
 
 .social-icon:hover {
     color: #fff;
-    background: var(--accent-color);
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(56, 189, 248, 0.4);
-    border-color: var(--accent-color);
+}
+
+.social-icon.github:hover {
+    background: #333;
+    border-color: #333;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.social-icon.linkedin:hover {
+    background: #0077b5;
+    border-color: #0077b5;
+    box-shadow: 0 5px 15px rgba(0, 119, 181, 0.4);
 }
 
 .btn-primary-custom {
@@ -132,20 +141,23 @@ body[dir="rtl"] .social-links {
 
 @media screen and (max-width: 990px) {
 
-   .hero-section .row{
-     flex-direction: column-reverse;
-     text-align: center !important;
-   }
-   .cta-container{
-    justify-content: center !important;
-    flex-direction: column;
-   }
-   .hero-content{
-    margin-top: 30px !important;
-   }
-   .description{
-    max-width: none;
-   }
+    .hero-section .row {
+        flex-direction: column-reverse;
+        text-align: center !important;
+    }
+
+    .cta-container {
+        justify-content: center !important;
+        flex-direction: column;
+    }
+
+    .hero-content {
+        margin-top: 30px !important;
+    }
+
+    .description {
+        max-width: none;
+    }
 
 }
 

@@ -15,7 +15,9 @@
     "hero": {
         "greeting": "Hello, I am",
         "title": "Senior React JS Developer",
-        "description": "Building modern, responsive, and user-friendly web applications."
+        "description": "Building modern, responsive, and user-friendly web applications.",
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
     },
     "about": {
         "title": "About Me",
