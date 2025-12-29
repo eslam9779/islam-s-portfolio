@@ -4,6 +4,13 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import gptImg from '../assets/gpt.png';
+import afedny from '../assets/afedny.png';
+import bareq from '../assets/bareq.png';
+
+import awqaty from '../assets/awqaty.png';
+import kalemon from '../assets/kalemon.png';
+import tebian from '../assets/tebian.png';
+
 import './Projects.css';
 
 import SectionReveal from './SectionReveal';
@@ -17,42 +24,52 @@ const Projects = () => {
             tech: ['React', 'React Bootstrap', 'Ant Design'],
             color: '#0ea5e9',
             link: 'https://bareq.me/',
-            code: ''
+            code: '',
+            image: bareq,
+
         },
         {
             key: 'tebian',
             tech: ['React', 'PrimeReact'],
             color: '#4f46e5',
             link: 'https://tebian.app/',
-            code: ''
+            code: '',
+            image: tebian,
+
         },
         {
             key: 'awqaty',
             tech: ['Laravel Blade', 'Bootstrap 5'],
             color: '#10b981',
             link: 'https://www.awqaty.com/ar',
-            code: ''
+            code: '',
+            image: awqaty,
+
         },
         {
             key: 'afedny',
             tech: ['Laravel Blade', 'Bootstrap 5'],
             color: '#ef4444',
             link: 'https://bo.afedne.com/',
-            code: ''
+            code: '',
+            image: afedny,
+
         },
         {
             key: 'gpt3',
             tech: ['React', 'CSS'],
             image: gptImg,
             link: 'https://exquisite-marigold-dd26ed.netlify.app/',
-            code: 'https://github.com/eslam9779/Gpt-3-'
+            code: 'https://github.com/eslam9779/Gpt-3-',
         },
         {
             key: 'kalemon',
             tech: ['React', 'React Bootstrap'],
             color: '#f59e0b',
             link: 'https://kalemon.academy/',
-            code: ''
+            code: '',
+            image: kalemon,
+
         },
 
     ];

@@ -78,7 +78,9 @@
         "title": "Contact Me",
         "email": "Email",
         "linkedin": "LinkedIn",
-        "github": "GitHub"
+        "github": "GitHub",
+        "phone": "Phone",
+        "address": "Address"
     },
     "footer": {
         "copyright": "© 2025 All Rights Reserved."

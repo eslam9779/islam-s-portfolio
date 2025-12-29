@@ -29,7 +29,7 @@ const Contact = () => {
                                     <div className="icon-box">
                                         <FaPhoneAlt />
                                     </div>
-                                    <h3>Phone</h3>
+                                    <h3>{t('contact.phone')}</h3>
                                     <p>01017392616</p>
                                 </div>
 
@@ -37,7 +37,7 @@ const Contact = () => {
                                     <div className="icon-box">
                                         <FaMapMarkerAlt />
                                     </div>
-                                    <h3>Address</h3>
+                                    <h3>{t('contact.address')}</h3>
                                     <p>Faisal,Giza,Egypt</p>
                                 </div>
 
