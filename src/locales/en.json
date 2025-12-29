@@ -21,15 +21,17 @@
     },
     "about": {
         "title": "About Me",
-        "intro": "I am a React JS developer with 3 years of experience in the web field. I build high-performance, user-friendly applications with modern technologies.",
+        "intro": "I am a Computer Science graduate from Cairo University and a React JS developer with 3 years of experience in the web field. I build high-performance, user-friendly applications with modern technologies.",
+        "present": "Present",
         "education": {
             "title": "Education",
             "bachelor": "Bachelor's Degree in Computer Science, Cairo University 2019",
-            "iti": "ITI (Information Technology Institute) Intensive Code Camp Graduate (4 months)"
+            "iti": "ITI (Information Technology Institute) Intensive Code Camp Graduate (Full Stack Development Diploma)."
         },
         "experience": {
             "title": "Work Experience",
-            "current": "Works at Almotahida Education Group since 2023"
+            "current": "Works at Almotahida Education Group since 2023",
+            "scyiber": "Front End Instructor at Scieyber Academy"
         }
     },
     "services": {

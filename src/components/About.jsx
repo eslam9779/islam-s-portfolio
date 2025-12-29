@@ -36,11 +36,11 @@ const About = () => {
                                     <div className="card-content">
                                         <h4>{t('about.education.title')}</h4>
                                         <div className="milestone">
-                                            <span className="year">2019</span>
+                                            <span className="year">2015-2019</span>
                                             <span className="degree">{t('about.education.bachelor')}</span>
                                         </div>
                                         <div className="milestone">
-                                            <span className="year">2019</span>
+                                            <span className="year">2022-2023</span>
                                             <span className="degree">{t('about.education.iti')}</span>
                                         </div>
                                     </div>
@@ -56,6 +56,10 @@ const About = () => {
                                         <div className="milestone">
                                             <span className="year">2023 - Present</span>
                                             <span className="role">{t('about.experience.current')}</span>
+                                        </div>
+                                        <div className="milestone mt-3">
+                                            <span className="year">2025 - Present</span>
+                                            <span className="role">{t('about.experience.scyiber')}</span>
                                         </div>
                                     </div>
                                 </div>
