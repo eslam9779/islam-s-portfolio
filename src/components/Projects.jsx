@@ -13,47 +13,48 @@ const Projects = () => {
 
     const projects = [
         {
-            key: 'gpt3',
-            tech: ['React', 'CSS', 'Framer Motion'],
-            image: gptImg,
-            link: 'https://example.com/gpt3',
-            code: 'https://github.com/example/gpt3'
+            key: 'bareq',
+            tech: ['React', 'React Bootstrap', 'Ant Design'],
+            color: '#0ea5e9',
+            link: 'https://bareq.me/',
+            code: ''
         },
         {
             key: 'tebian',
             tech: ['React', 'PrimeReact'],
             color: '#4f46e5',
-            link: '#',
-            code: '#'
-        },
-        {
-            key: 'bareq',
-            tech: ['React', 'React Bootstrap', 'React Forms', 'Ant Design'],
-            color: '#0ea5e9',
-            link: '#',
-            code: '#'
+            link: 'https://tebian.app/',
+            code: ''
         },
         {
             key: 'awqaty',
             tech: ['Laravel Blade', 'Bootstrap 5'],
             color: '#10b981',
-            link: '#',
-            code: '#'
-        },
-        {
-            key: 'kalemon',
-            tech: ['React', 'React Bootstrap'],
-            color: '#f59e0b',
-            link: '#',
-            code: '#'
+            link: 'https://www.awqaty.com/ar',
+            code: ''
         },
         {
             key: 'afedny',
             tech: ['Laravel Blade', 'Bootstrap 5'],
             color: '#ef4444',
-            link: '#',
-            code: '#'
-        }
+            link: 'https://bo.afedne.com/',
+            code: ''
+        },
+        {
+            key: 'gpt3',
+            tech: ['React', 'CSS'],
+            image: gptImg,
+            link: 'https://exquisite-marigold-dd26ed.netlify.app/',
+            code: 'https://github.com/eslam9779/Gpt-3-'
+        },
+        {
+            key: 'kalemon',
+            tech: ['React', 'React Bootstrap'],
+            color: '#f59e0b',
+            link: 'https://kalemon.academy/',
+            code: ''
+        },
+
     ];
 
     return (
@@ -73,9 +74,9 @@ const Projects = () => {
                                         <div className="card-header-modern">
                                             <h3 className="project-title">{t(`projects.${proj.key}.name`, proj.key)}</h3>
                                             <div className="project-actions">
-                                                <a href={proj.code} target="_blank" rel="noreferrer" className="action-btn github">
+                                                {proj.code && <a href={proj.code} target="_blank" rel="noreferrer" className="action-btn github">
                                                     <FaGithub />
-                                                </a>
+                                                </a>}
                                                 <a href={proj.link} target="_blank" rel="noreferrer" className="action-btn demo">
                                                     <FaExternalLinkAlt />
                                                 </a>
