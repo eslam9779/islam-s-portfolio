@@ -62,39 +62,48 @@ const Projects = () => {
                     {projects.map((proj, index) => (
                         <Col md={6} lg={4} key={proj.key} className="mb-4">
                             <motion.div
-                                whileHover={{ y: -10 }}
-                                transition={{ type: "spring", stiffness: 300 }}
+                                whileHover={{ y: -8 }}
+                                transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                                className="h-100"
                             >
-                                <Card className="project-card h-100">
-                                    <div className="project-img-wrapper" style={{ backgroundColor: proj.image ? 'transparent' : proj.color }}>
+                                <div className="project-card-modern">
+                                    <div className="card-header-modern">
+                                        <h3 className="project-title">{t(`projects.${proj.key}.name`, proj.key)}</h3>
+                                        <div className="project-actions">
+                                            <a href={proj.code} target="_blank" rel="noreferrer" className="action-btn github">
+                                                <FaGithub />
+                                            </a>
+                                            <a href={proj.link} target="_blank" rel="noreferrer" className="action-btn demo">
+                                                <FaExternalLinkAlt />
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div className="project-visual" style={{ backgroundColor: proj.image ? 'transparent' : proj.color }}>
                                         {proj.image ? (
-                                            <img src={proj.image} alt={t(`projects.${proj.key}.name`, proj.key)} className="project-img" />
+                                            <img src={proj.image} alt={t(`projects.${proj.key}.name`, proj.key)} className="project-img-modern" />
                                         ) : (
-                                            <div className="project-overlay">
-                                                <span className="project-abbr">{t(`projects.${proj.key}.name`, proj.key).substring(0, 2)}</span>
+                                            <div className="project-overlay-modern">
+                                                <span className="project-abbr-modern">
+                                                    {t(`projects.${proj.key}.name`, proj.key).substring(0, 2)}
+                                                </span>
                                             </div>
                                         )}
                                     </div>
-                                    <Card.Body>
-                                        <Card.Title className="d-flex justify-content-between align-items-center">
-                                            {t(`projects.${proj.key}.name`, proj.key)}
-                                            <div className="project-links">
-                                                <a href={proj.code} target="_blank" rel="noreferrer" className="ms-2 text-muted"><FaGithub /></a>
-                                                <a href={proj.link} target="_blank" rel="noreferrer" className="ms-2 text-accent"><FaExternalLinkAlt /></a>
-                                            </div>
-                                        </Card.Title>
-                                        <Card.Text>
+
+                                    <div className="card-content-modern">
+                                        <p className="project-desc">
                                             {t(`projects.${proj.key}.desc`, `${proj.key} Project Description`)}
-                                        </Card.Text>
-                                        <div className="tech-stack mt-3">
+                                        </p>
+                                        <div className="tech-stack-modern">
                                             {proj.tech.map((tech, i) => (
-                                                <Badge bg="dark" className="me-2 mb-2 tech-badge" key={i}>
+                                                <span className="tech-pill" key={i}>
                                                     {tech}
-                                                </Badge>
+                                                </span>
                                             ))}
                                         </div>
-                                    </Card.Body>
-                                </Card>
+                                    </div>
+                                </div>
                             </motion.div>
                         </Col>
                     ))}
