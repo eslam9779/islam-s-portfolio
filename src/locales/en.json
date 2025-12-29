@@ -1,0 +1,82 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "projects": "Projects",
+        "contact": "Contact",
+        "downloadCv": "Download CV",
+        "brand": "Eslam",
+        "language": {
+            "english": "English",
+            "arabic": "Arabic"
+        }
+    },
+    "hero": {
+        "greeting": "Hello, I am",
+        "title": "Senior React JS Developer",
+        "description": "Building modern, responsive, and user-friendly web applications."
+    },
+    "about": {
+        "title": "About Me",
+        "intro": "I am a React JS developer with 3 years of experience in the web field. I build high-performance, user-friendly applications with modern technologies.",
+        "education": {
+            "title": "Education",
+            "bachelor": "Bachelor's Degree in Computer Science, Cairo University 2019",
+            "iti": "ITI (Information Technology Institute) Intensive Code Camp Graduate (4 months)"
+        },
+        "experience": {
+            "title": "Work Experience",
+            "current": "Works at Almotahida Education Group since 2023"
+        }
+    },
+    "services": {
+        "title": "My Services",
+        "webDev": "Web Development",
+        "webDevDesc": "Creating responsive and performing websites using React and modern technologies.",
+        "uiUx": "UI/UX Implementation",
+        "uiUxDesc": "Transforming designs into interactive and pixel-perfect front-end interfaces."
+    },
+    "techStats": {
+        "title": "Technologies & Stats",
+        "projects": "Projects Completed",
+        "clients": "Happy Clients",
+        "support": "Support"
+    },
+    "projects": {
+        "title": "My Projects",
+        "gpt3": {
+            "name": "GPT-3 Landing Page",
+            "desc": "A modern landing page for GPT-3 AI."
+        },
+        "tebian": {
+            "name": "Tebian",
+            "desc": "Educational website for teachers, students, and schools."
+        },
+        "bareq": {
+            "name": "Bareq",
+            "desc": "Platform for teaching Arabic for non-speakers. Contains student, teacher, and school accounts."
+        },
+        "awqaty": {
+            "name": "Awqaty",
+            "desc": "A complete system for managing reservations and receiving payments. Whether you have a service, offer a workshop, course, or consultation, you need a tool to arrange your reservations with your clients!"
+        },
+        "kalemon": {
+            "name": "Kalemon Academy",
+            "desc": "Academy for teaching Arabic."
+        },
+        "afedny": {
+            "name": "Afedny",
+            "desc": "Library for books."
+        }
+    },
+    "contact": {
+        "title": "Contact Me",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+    },
+    "footer": {
+        "copyright": "© 2025 All Rights Reserved."
+    }
+}

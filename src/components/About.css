@@ -1,0 +1,122 @@
+.about-section {
+    padding: 100px 0;
+    position: relative;
+    /* Subtle modern pattern or gradient */
+    background: radial-gradient(circle at top right, rgba(14, 165, 233, 0.1), transparent 40%),
+        radial-gradient(circle at bottom left, rgba(99, 102, 241, 0.1), transparent 40%);
+}
+
+.about-text-content {
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+[dir="rtl"] .about-text-content {
+    padding: 0;
+}
+
+.about-description {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+    font-weight: 300;
+}
+
+/* Bento Grid Layout */
+.bento-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .bento-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.bento-card {
+    background: rgba(30, 41, 59, 0.4);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 24px;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.bento-card:hover {
+    transform: translateY(-5px);
+    background: rgba(30, 41, 59, 0.6);
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+    background: rgba(56, 189, 248, 0.1);
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: var(--accent-color);
+    flex-shrink: 0;
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+.card-content h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1.2rem;
+}
+
+.milestone {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.milestone:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.milestone .year {
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.milestone .degree,
+.milestone .role {
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .about-text-content {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .section-title {
+        text-align: center !important;
+    }
+}
