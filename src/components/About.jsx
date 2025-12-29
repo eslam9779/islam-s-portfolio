@@ -54,11 +54,11 @@ const About = () => {
                                     <div className="card-content">
                                         <h4>{t('about.experience.title')}</h4>
                                         <div className="milestone">
-                                            <span className="year">2023 - Present</span>
+                                            <span className="year">2023 - {t("about.present")}</span>
                                             <span className="role">{t('about.experience.current')}</span>
                                         </div>
                                         <div className="milestone mt-3">
-                                            <span className="year">2025 - Present</span>
+                                            <span className="year">2025 - {t("about.present")}</span>
                                             <span className="role">{t('about.experience.scyiber')}</span>
                                         </div>
                                     </div>
