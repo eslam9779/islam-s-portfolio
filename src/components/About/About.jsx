@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { FaGraduationCap, FaBriefcase } from 'react-icons/fa';
 import './About.css';
+import SectionReveal from '../SectionReveal/SectionReveal';
 
-import SectionReveal from './SectionReveal';
 
 const About = () => {
     const { t } = useTranslation();

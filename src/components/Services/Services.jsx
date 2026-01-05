@@ -5,7 +5,7 @@ import { FaBootstrap, FaCss3Alt, FaDatabase, FaHtml5, FaJs, FaLaravel, FaPhp, Fa
 import { SiAntdesign, SiPrime } from 'react-icons/si';
 import './Services.css';
 
-import SectionReveal from './SectionReveal';
+import SectionReveal from '../SectionReveal/SectionReveal';
 
 const Services = () => {
     const { t } = useTranslation();

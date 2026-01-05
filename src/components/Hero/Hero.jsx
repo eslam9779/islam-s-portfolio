@@ -3,11 +3,11 @@ import { Container, Row, Col, Button, OverlayTrigger, Tooltip } from 'react-boot
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
-import cvFile from '../assets/islam Abelsattar resume.pdf';
-import islam2 from '../assets/3.png';
+import cvFile from '../../assets/islam Abelsattar resume.pdf';
+import islam2 from '../../assets/3.png';
 import './Hero.css';
 
-import SectionReveal from './SectionReveal';
+import SectionReveal from '../SectionReveal/SectionReveal';
 
 const Hero = () => {
     const { t } = useTranslation();

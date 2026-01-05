@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { FaEnvelope, FaLinkedin, FaGithub, FaPhoneAlt, FaMapMarkerAlt, FaFacebook } from 'react-icons/fa';
 import './Contact.css';
 
-import SectionReveal from './SectionReveal';
+import SectionReveal from '../SectionReveal/SectionReveal';
 
 const Contact = () => {
     const { t } = useTranslation();

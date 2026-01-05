@@ -1,19 +1,18 @@
-import React from 'react';
 import { Container, Row, Col, Card, Badge, Button } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
-import gptImg from '../assets/gpt.png';
-import afedny from '../assets/afedny.png';
-import bareq from '../assets/bareq.png';
+import gptImg from '../../assets/gpt.png';
+import afedny from '../../assets/afedny.png';
+import bareq from '../../assets/bareq.png';
 
-import awqaty from '../assets/awqaty.png';
-import kalemon from '../assets/kalemon.png';
-import tebian from '../assets/tebian.png';
+import awqaty from '../../assets/awqaty.png';
+import kalemon from '../../assets/kalemon.png';
+import tebian from '../../assets/tebian.png';
 
 import './Projects.css';
 
-import SectionReveal from './SectionReveal';
+import SectionReveal from '../SectionReveal/SectionReveal';
 
 const Projects = () => {
     const { t } = useTranslation();
