@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import Projects from './components/Projects';
-import Contact, { Footer } from './components/Contact';
+import Contact from './components/Contact';
 import { useTranslation } from 'react-i18next';
 import './App.css';
 
@@ -23,7 +23,6 @@ function App() {
       <Services />
       <Projects />
       <Contact />
-      {/* <Footer /> */}
     </div>
   );
 }

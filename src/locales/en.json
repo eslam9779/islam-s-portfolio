@@ -14,7 +14,7 @@
     },
     "hero": {
         "greeting": "Hello, I am",
-        "title": "Senior React JS Developer",
+        "title": "Mid-Level React JS Developer",
         "description": "Building modern, responsive, and user-friendly web applications.",
         "github": "GitHub",
         "linkedin": "LinkedIn"
@@ -80,9 +80,11 @@
         "linkedin": "LinkedIn",
         "github": "GitHub",
         "phone": "Phone",
-        "address": "Address"
-    },
-    "footer": {
-        "copyright": "© 2025 All Rights Reserved."
+        "address": "Address",
+        "addressDetails": "Faisal,Giza,Egypt",
+        "LinkedIn_Profile": "LinkedIn Profile",
+        "GitHub_Profile": "GitHub Profile",
+        "facebook": "Facebook",
+        "Facebook_Profile": "Facebook Profile"
     }
 }

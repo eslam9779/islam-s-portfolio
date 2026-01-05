@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
 import cvFile from '../assets/islam Abelsattar resume.pdf';
-import islam2 from '../assets/eslam11.jpg';
+import islam2 from '../assets/3.png';
 import './Hero.css';
 
 import SectionReveal from './SectionReveal';

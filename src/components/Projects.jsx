@@ -87,14 +87,14 @@ const Projects = () => {
                                     transition={{ type: "spring", stiffness: 300, damping: 20 }}
                                     className="h-100"
                                 >
-                                    <div className="project-card-modern">
+                                    <div className="project-card-modern" onClick={() => window.open(proj.link, '_blank')}>
                                         <div className="card-header-modern">
                                             <h3 className="project-title">{t(`projects.${proj.key}.name`, proj.key)}</h3>
                                             <div className="project-actions">
-                                                {proj.code && <a href={proj.code} target="_blank" rel="noreferrer" className="action-btn github">
+                                                {proj.code && <a  target="_blank" rel="noreferrer" className="action-btn github " onClick={(e)=>{window.open(proj.code, '_blank')}}>
                                                     <FaGithub />
                                                 </a>}
-                                                <a href={proj.link} target="_blank" rel="noreferrer" className="action-btn demo">
+                                                <a href={proj.link} target="_blank" rel="noreferrer" className="action-btn demo ">
                                                     <FaExternalLinkAlt />
                                                 </a>
                                             </div>

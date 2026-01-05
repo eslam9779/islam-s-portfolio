@@ -16,7 +16,7 @@
         "greeting": "أهلاً، أنا",
         "title": "مطور واجهات أمامية (React JS)",
         "description": " أقوم ببناء تطبيقات عالية الأداء وسهلة الاستخدام بأحدث التقنيات.",
-        "github": "جيت هب",
+        "github": "جيت هاب",
         "linkedin": "لينكد إن"
     },
     "about": {
@@ -78,11 +78,13 @@
         "title": "تواصل معي",
         "email": "البريد الإلكتروني",
         "linkedin": "لينكد إن",
-        "github": "جيت هب",
+        "github": "جيت هاب",
         "phone": "الهاتف",
-        "address": "العنوان"
-    },
-    "footer": {
-        "copyright": "© 2025 جميع الحقوق محفوظة."
+        "address": "العنوان",
+        "addressDetails": "فيصل ، الجيزة ، مصر",
+        "LinkedIn_Profile": " حساب لينكد إن",
+        "GitHub_Profile": " حساب جيت هاب",
+        "facebook": "فيس بوك",
+        "Facebook_Profile": "حساب فيس بوك"
     }
 }

@@ -112,8 +112,9 @@
     box-shadow: 0 0 30px rgba(56, 189, 248, 0.3);
     width: 450px;
     height: 450px;
-    object-fit: cover;
+    /* object-fit: cover; */
     animation: float 6s ease-in-out infinite;
+    filter: brightness(1.2);
 }
 
 @keyframes float {
