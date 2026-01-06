@@ -14,6 +14,7 @@ import './Projects.css';
 
 import SectionReveal from '../SectionReveal/SectionReveal';
 
+
 const Projects = () => {
     const { t } = useTranslation();
 
